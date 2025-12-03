@@ -2,18 +2,18 @@
 
 Aplicativo mobile desenvolvido em Flutter para simular o feed de uma rede social, demonstrando habilidades em desenvolvimento mobile, organização de código, gerenciamento de estado e integração com recursos nativos.
 
-## 📱 Funcionalidades
+##  Funcionalidades
 
-- ✅ **Tela de Login**: Autenticação com validação local
-- ✅ **Tela de Registro**: Criação de novas contas
-- ✅ **Visualização do Feed**: Lista de posts em formato de cards
-- ✅ **Criação de Posts**: Adicionar novos posts com título, conteúdo e imagem
-- ✅ **Edição de Posts**: Modificar posts existentes
-- ✅ **Exclusão de Posts**: Deletar posts existentes
-- ✅ **Detalhes do Post**: Tela dedicada para visualizar e editar posts
-- ✅ **Recursos Nativos**: Integração com câmera para captura de fotos
+-  **Tela de Login**: Autenticação com validação local
+-  **Tela de Registro**: Criação de novas contas
+-  **Visualização do Feed**: Lista de posts em formato de cards
+-  **Criação de Posts**: Adicionar novos posts com título, conteúdo e imagem
+-  **Edição de Posts**: Modificar posts existentes
+-  **Exclusão de Posts**: Deletar posts existentes
+-  **Detalhes do Post**: Tela dedicada para visualizar e editar posts
+-  **Recursos Nativos**: Integração com câmera para captura de fotos
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 O projeto segue os princípios da **Clean Architecture**, organizando o código em camadas:
 
@@ -37,7 +37,7 @@ lib/
     └── widgets/        # Widgets reutilizáveis
 ```
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Flutter**: Framework mobile multiplataforma
 - **MobX**: Gerenciamento de estado reativo
@@ -47,7 +47,7 @@ lib/
 - **Cached Network Image**: Cache de imagens de rede
 - **Intl**: Internacionalização e formatação
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 - Flutter SDK 3.6.2 ou superior
 - Dart SDK 3.6.2 ou superior
@@ -55,12 +55,12 @@ lib/
 - Android SDK (para desenvolvimento Android)
 - Dispositivo Android ou emulador
 
-## 🚀 Instalação e Execução
+##  Instalação e Execução
 
 ### 1. Clone o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/Vitu26/esig>
 cd esig_app
 ```
 
@@ -103,14 +103,14 @@ flutter run -d <device-id>
 flutter run -d chrome
 ```
 
-## 🔑 Credenciais de Login
+##  Credenciais de Login
 
 - **Usuário**: `admin`
 - **Senha**: `admin`
 
 Você também pode criar uma nova conta através da tela de registro.
 
-## 📦 Estrutura de Dados
+##  Estrutura de Dados
 
 ### Post Entity
 
@@ -127,26 +127,26 @@ Você também pode criar uma nova conta através da tela de registro.
 }
 ```
 
-## 🔄 Fluxo de Dados
+##  Fluxo de Dados
 
 1. **Apresentação** → Stores (MobX) → Repositories
 2. **Repositories** → Datasources (Local)
 3. **Datasources Local** → SharedPreferences
 4. Todos os dados são armazenados localmente no dispositivo
 
-## 📱 Plataformas Suportadas
+##  Plataformas Suportadas
 
-- ✅ Android (API 21+)
-- ✅ Web
-- ✅ iOS (configuração disponível)
+-  Android (API 21+)
+-  Web
+-  iOS (configuração disponível)
 
-## 🧪 Testes
+##  Testes
 
 ```bash
 flutter test
 ```
 
-## 📝 Comandos Úteis
+##  Comandos Úteis
 
 ### Limpar build
 
@@ -180,7 +180,7 @@ flutter build apk
 flutter build apk --split-per-abi
 ```
 
-## 📋 Recursos Nativos
+##  Recursos Nativos
 
 ### Câmera
 - Captura de fotos para os posts
@@ -191,7 +191,7 @@ flutter build apk --split-per-abi
 - Persistência de posts e dados de autenticação
 - Armazenamento via SharedPreferences
 
-## 🔧 Configuração do Android
+##  Configuração do Android
 
 O aplicativo já está configurado com as permissões necessárias:
 
@@ -202,11 +202,7 @@ O aplicativo já está configurado com as permissões necessárias:
 
 Todas as configurações estão em `android/app/src/main/AndroidManifest.xml`.
 
-## 📄 Licença
+##  Link de apresentação no youtube:
 
-Este projeto foi desenvolvido exclusivamente para fins de avaliação técnica.
 
----
-
-**Desenvolvido com ❤️ usando Flutter**
 
